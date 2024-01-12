@@ -155,7 +155,7 @@ hr {
 }
 
 #navbar ul li a:hover,
-#navbar ul li a.current {
+#navbar ul li current {
   background: var(--main-color);
   color: #707070;
 }
@@ -169,6 +169,7 @@ hr {
   height: 40vh;
   padding: 50px;
 }
+
 .salesforce{
   background-image: url("../img/salesforce.gif");
   background-repeat: no-repeat;
