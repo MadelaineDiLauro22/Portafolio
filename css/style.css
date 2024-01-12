@@ -18,6 +18,32 @@ html {
   font-family: 'Raleway', sans-serif;
   color: #4d4d4d;
   line-height: 1.7em;
+  transition: background-color 0.3s ease;
+}
+
+.moon-icon {
+  height: 50px; /* Ajusta la altura según tus necesidades */
+  width: 50px; /* Ajusta el ancho según tus necesidades */
+  margin: 5px;
+}
+
+.moon-icon-container {
+  margin-left: 10px; /* Ajusta el margen izquierdo según tus necesidades */
+  cursor: pointer;
+}
+.light-mode {
+  background-color: #fff;
+  color: #000;
+}
+
+.dark-mode {
+  background-color:#383737;;
+  color: #000000;
+}
+
+
+.theme-switch {
+  cursor: pointer;
 }
 
 a {
@@ -145,6 +171,15 @@ hr {
 }
 .salesforce{
   background-image: url("../img/salesforce.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  padding: 50px;
+  
+}
+.gco{
+  background-image: url("../img/administracion.gif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -346,9 +381,7 @@ hr {
   float: left;
 }
 
-#main-footer ul li i {
-  color: var(--main-color);
-}
+
 
 #main-footer ul li a {
   display: block;
